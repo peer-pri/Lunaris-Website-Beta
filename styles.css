@@ -1,48 +1,102 @@
+/* styles.css */
+
 body {
-    background-color: #222;
-    color: #fff;
-    font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
+header {
+  background-color: #222;
+  padding: 20px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-th, td {
-    padding: 10px;
-    text-align: center;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-thead {
-    background-color: #333;
-    color: #fff;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-tbody {
-    background-color: #444;
-    color: #fff;
+.hero {
+  text-align: center;
+  padding: 100px 0;
 }
 
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-button:hover {
-    background-color: #0056b3;
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container ul li {
+  margin-bottom: 10px;
+}
+
+.file {
+  margin-bottom: 20px;
+}
+
+.file a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
